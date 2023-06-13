@@ -10,6 +10,8 @@ public class TwilioNotificationUseCase implements ITwillioDomainPort {
     public TwilioNotificationUseCase(ITwilioServicePort twilioServicePort){
         this.twilioServicePort = twilioServicePort;
     }
+    
+    // use case
     @Override
     public String message() {
         Random random = new Random();
